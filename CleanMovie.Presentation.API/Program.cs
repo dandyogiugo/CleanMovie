@@ -10,6 +10,7 @@ namespace CleanMovie.Presentation.API
 
             // Add services to the container.
 
+            // This line shows how to add Domain Services
             builder.Services.AddCleanMovieServices("mylocal connection string placeholder");
             builder.Services.AddControllers();
 
